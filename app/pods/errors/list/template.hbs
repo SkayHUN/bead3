@@ -1,0 +1,17 @@
+{{#each messages}}
+<div class="alert alert-dismissible alert-success">
+    <button type="button" class="close" data-dismiss="alert">×</button>
+    {{this}}
+</div>
+{{/each}}
+
+<div class="page-header">
+    <h1>My subjects</h1>
+</div>
+
+{{error-list errors=model}}
+
+<p>
+    <button {{action "showModal" "new-error-modal" "errors.list"}} class="btn btn-default">New subject</button>
+   
+</p>

@@ -1,0 +1,14 @@
+<dl class="dl-horizontal">
+  <dt>id</dt>
+  <dd>{{error.id}}</dd>
+  <dt>Subject</dt>
+  <dd>{{error.targynev}}</dd>
+  <dt>Time</dt>
+  <dd>{{error.idopont}}</dd>
+  <dt>Subjectcode</dt>
+  <dd>{{error.kurzuskod}}</dd>
+  <dt>Comments</dt>
+  {{#each error.comments as |comment|}}
+  <dd>{{comment.nev}}: {{comment.uzenet}}</dd>
+  {{/each}}
+</dl>

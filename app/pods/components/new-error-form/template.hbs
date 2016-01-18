@@ -1,0 +1,31 @@
+<form class="form-horizontal" method="post">
+    <fieldset>
+        <div class="form-group {{if errors.targynev "has-error"}}">
+            <label for="targynev" class="col-lg-2 control-label">Subject</label>
+            <div class="col-lg-10">
+                <input class="form-control" id="targynev" name="targynev" placeholder="Programozás" type="text" value="{{data.targynev}}">
+                <span class="help-block">{{errors.targynev}}</span>
+            </div>
+        </div>
+        <div class="form-group {{if errors.kurzuskod "has-error"}}">
+            <label for="leiras" class="col-lg-2 control-label">Subjectcode</label>
+            <div class="col-lg-10">
+                <input class="form-control" id="kurzuskod" name="kurzuskod" placeholder="AF-123DSA" type="text" value="{{data.kurzuskod}}">
+                <span class="help-block">{{errors.kurzuskod}}</span>
+            </div>
+        </div>
+        <div class="form-group {{if errors.idopont "has-error"}}">
+            <label for="leiras" class="col-lg-2 control-label">Time</label>
+            <div class="col-lg-10">
+                <input class="form-control" id="idopont" name="idopont" placeholder="Kedd 8:00" type="text" value="{{data.idopont}}">
+                <span class="help-block">{{errors.idopont}}</span>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-lg-10 col-lg-offset-2">
+                <button type="reset" class="btn btn-default">Cancel</button>
+                <button {{action "submit"}} class="btn btn-primary">Submit</button>
+            </div>
+        </div>
+    </fieldset>
+</form>        

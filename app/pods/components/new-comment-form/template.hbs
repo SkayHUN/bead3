@@ -1,0 +1,24 @@
+<form class="form-horizontal" method="post">
+    <fieldset>
+        <div class="form-group {{if comments.nev "has-error"}}">
+            <label for="nev" class="col-lg-2 control-label">Name</label>
+            <div class="col-lg-10">
+                <input class="form-control" id="nev" name="nev" type="text" value="{{data.nev}}">
+                <span class="help-block">{{comments.nev}}</span>
+            </div>
+        </div>
+        <div class="form-group {{if comments.uzenet "has-error"}}">
+            <label for="uzenet" class="col-lg-2 control-label">Comment</label>
+            <div class="col-lg-10">
+                <input class="form-control" id="uzenet" name="uzenet" placeholder="AS-D123" type="text" value="{{data.uzenet}}">
+                <span class="help-block">{{comments.uzenet}}</span>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-lg-10 col-lg-offset-2">
+                <button type="reset" class="btn btn-default">Cancel</button>
+                <button {{action "submit"}} class="btn btn-primary">Submit</button>
+            </div>
+        </div>
+    </fieldset>
+</form>        
