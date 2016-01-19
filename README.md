@@ -136,7 +136,7 @@ A "docs" mappa "images" almappája tárolja a dokumentáció képeit
 
 Szerveroldalon a ".db" mappa az adatbázis tárolására, míg a gyökérmappában lévő server.js az adatbáziskezelő szerver létrehozására szolgál.
 
-Tesztelés
+#Tesztelés
 
 Tesztelt esetek:
 
@@ -150,7 +150,7 @@ Tesztelt esetek:
 
 5. hozzászólás írása: A listázóoldal megfelelő sorában a "Comment" gombra kattintva vehetünk fel új hozzászólást a tárgyakhoz.
 
-Felhasználói dokumentáció
+#Felhasználói dokumentáció
 
 A program futtatásához elegendő egy modern böngésző (IE 9+, Google Chrome, Mozilla Firefox, Opera, Safari) és a cloud9 rendszer (node.js).
 
