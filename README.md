@@ -18,11 +18,11 @@ Webes vastagkliens - egyoldalas webes alkalmazás
 
 #Használatieset-modell
 
-![hasznalatieset__modell](kok/docs/images/hasznalatieset__modell.png)
+![hasznalatieset__modell](docs/images/hasznalatieset__modell.png)
 
 Egy kifejtett használati eset folyamatábrája:
 
-![folyamatabra](kok/docs/images/folyamatabra.png)
+![folyamatabra](docs/images/folyamatabra.png)
 
 Funkcionális elvárások:
 
@@ -64,25 +64,25 @@ Felhasználóifelület-modell
 
 #Designterv:
 
-![home](kok/docs/images/home.png)
+![home](docs/images/home.png)
 
-![list](kok/docs/images/list.png)
+![list](docs/images/list.png)
 
-![new](kok/docs/images/new.png)
+![new](docs/images/new.png)
 
-![comment](kok/docs/images/comment.png)
+![comment](docs/images/comment.png)
 
-![view](kok/docs/images/view.png)
+![view](docs/images/view.png)
 
 #Osztálymodell
 
 1. Adatmodell
 
-    ![Adatmodell](kok/docs/images/adatmodell.png)
+    ![Adatmodell](docs/images/adatmodell.png)
 
 2. Adatbázisterv
 
-    ![Adatbázisterv](kok/docs/images/adatb.png)
+    ![Adatbázisterv](docs/images/adatb.png)
 
 Implementáció
 
