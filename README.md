@@ -10,7 +10,7 @@ A beadandó célja egy webes vastagkliens, azaz egyoldalas alkalmazás készít�
 
 Az álltalam választott feladat egy Tárgyfelvevő weblap, ahol a felhasználó regisztráció és bejelentkezés után felvehet neki tetsző tárgyakat. A felhasználó csak a saját felvett tárgyait látja. Ezen kívül lehetőség van tárgyak törlésére , szerkesztésére, ezen kívül kommentelni lehet a felvett tárgyakhoz, és ezeket a kommenteket megnézni.
 
-Szakterületi fogalomjegyzék
+#Szakterületi fogalomjegyzék
 
 REST API végpont - Representational State Transfer (REST) Application Programming Interface (API)
 
