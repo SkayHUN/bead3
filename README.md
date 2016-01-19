@@ -170,7 +170,7 @@ Ha üres a táblázat, a felhasználó felvehet, de mást nem tud tenni. Új tá
 
 1. Subject: a tárgy neve
 
-2. Subjectcode: a tróárgy kója
+2. Subjectcode: a tárgy kódja
 
 3. Time: a tárgy időpontja
 
